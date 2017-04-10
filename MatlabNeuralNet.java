@@ -39,9 +39,4 @@ public class MatlabNeuralNet {
 		}
 		return y.valueAt(0,0);
 	}
-	
-	public static void main(String[] args){
-		MatlabNeuralNet mnn = new MatlabNeuralNet();
-		System.out.println(mnn.apply(new Double[]{0.0,0.0}));
-	}
 }
